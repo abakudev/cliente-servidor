@@ -81,5 +81,3 @@ Now you are ready to chat!
 
 * **Abel Acuña** - [github](https://github.com/abelacu95)
 * **Agustin Salvador** -  [github](https://github.com/agussalvador)
-* **Santiago Labatut** - [github](https://github.com/sanlaba08)
-
