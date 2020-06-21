@@ -54,11 +54,10 @@ Run this command to get the IP on your local network.
 ```
 
 Follow the next step on your app.
-
 <p align="center">
-    <img src="./media/telnet-step-1.jpg" alt="Telnet Step 1" style="width: 32%"/>
-    <img src="./media/telnet-step-2.jpg" alt="Telnet Step 2" style="width: 32%"/>
-    <img src="./media/telnet-step-3.jpg" alt="Telnet Step 3" style="width: 32%"/>
+    <img src="./media/telnet-step-1.jpg" alt="Telnet Step 1" width="200"/>
+    <img src="./media/telnet-step-2.jpg" alt="Telnet Step 2" width="200"/>
+    <img src="./media/telnet-step-3.jpg" alt="Telnet Step 3" width="200"/>
 </p>
 
 #### Final Step
