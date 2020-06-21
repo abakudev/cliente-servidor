@@ -4,6 +4,12 @@
 # Log file
 *.log
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 # BlueJ files
 *.ctxt
 
@@ -11,7 +17,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
