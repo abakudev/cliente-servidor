@@ -43,7 +43,7 @@ Open the another terminal (PowerShell) and run the following command.
 ```
     java -jar ./out/artifacts/Client_jar/Client.jar
 ```
-You will need the relevant information here. Check [abov](#running-app)
+You will need the relevant information here. Check [above](#running-app)
 
 ##### Telnet
 We are using a Android Telnet App. You could download it [here](https://play.google.com/store/apps/details?id=mobiletelnet.feng.gao).
