@@ -32,7 +32,7 @@ Como cualquier otro “objeto”, los sockets hay que crearlos inicialmente, dá
 > * La principal diferencia entre ambos es que el UPD necesita que le entreguemos paquetes de datos que el usuario debe construir, mientras que el TCP admite bloques de datos que serán empaquetados de forma transparente antes de ser transmitidos.
 > * Tanto los paquetes de datos UDP como los segmentos TCP pueden perderse. Si un paquete se pierde, el UPD no hace nada. Por lo contrario, si un segmento se pierde, el TCP lo retransmitirá, y este proceso durará hasta que el segmento ha sido correctamente entregado al host receptor, o hasta que se produzca un número máximo de retransmisiones. 
 > * En aplicaciones en tiempo real, en el UPD controlamos qué datos viajan en cada paquete, en el TCP no es posible porque el empaquetamiento es automático.
-
+>*  El protocolo TCP es un protocolo de transporte orientado a conexión, mientras que el protocolo UDP no es orientado a la conexión.
 
 ### 8. Diferencia entre sync & async sockets
 > Los dos son bastante ortogonales. El envío de datos es más o menos asíncrono a través de cualquiera de los métodos. La diferencia solo está en el comportamiento cuando el búfer de salida está lleno: la sincronización se suspende, el asíncrono obtiene un retorno de error de la rutina de envío. La diferencia es más obvia en el lado de recepción. Sincroniza y suspende hasta que los datos estén disponibles. Asynch, obtiene un error de retorno, luego, opcionalmente, recibe una devolución de llamada cuando los datos estén disponibles.
