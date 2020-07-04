@@ -2,8 +2,7 @@
 > Un puerto es una interfaz a través de la cual se pueden enviar y recibir los diferentes tipos de datos.
 La interfaz puede ser de tipo física (hardware) o puede ser a nivel lógico o de software, en cuyo caso se usa frecuentemente el término puerto lógico (por ejemplo, los puertos de redes que permiten la transmisión de datos entre diferentes computadoras).
 ### 2.¿Como estan formados los endpoints?
-> Los endpoints están formados de la siguiente manera:https://127.0.0.1:3000.
-Hace referencia a cómo se construye la dirección de un endpoint y está compuesto por el número de ip, el host y el puerto
+> Endpoints:  Cada conexión está formada por  -Una dirección que indica dónde se puede encontrar el punto de conexión (IP). -Un enlace que especifica cómo un se puede comunicar un cliente con el punto de conexión (Puerto). -Un contrato que identifica las operaciones disponibles (Ejemplo /user/123 , obtiene la información del usuario con la ID 123). -Un conjunto de comportamientos que especifican detalles de implementación local del punto de conexión (Este último puede no existir)
 
 ### 3. ¿Que es un socket?
 > Socket designa un concepto abstracto por el cual dos programas pueden intercambiar cualquier flujo de datos, generalmente de manera fiable y ordenada.
