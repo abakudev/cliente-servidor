@@ -80,4 +80,3 @@ Now you are ready to chat!
 ## Contributors ✒️
 
 * **Abel Acuña** - [github](https://github.com/abelacu95)
-* **Agustin Salvador** -  [github](https://github.com/agussalvador)
